@@ -1,0 +1,13 @@
+@import "../../core/core";
+
+#mapa {
+  position: relative;
+  padding-bottom: 30em;
+
+  iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+}

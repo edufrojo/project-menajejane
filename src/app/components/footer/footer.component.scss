@@ -1,0 +1,11 @@
+@import "../../core/core";
+
+#footer {
+  min-height: 42px;
+  background-color: #282c2a;
+
+  @include breakpoint(xs) {
+    min-height: 86px;
+  }
+
+}

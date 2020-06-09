@@ -1,0 +1,32 @@
+@import '../../core/core';
+
+#header {
+  .logo-principal {
+    height: 53px;
+    background-color: $color-background-primary;
+
+    img {
+      height: 33px;
+    }
+  }
+
+  .boton-menu {
+    height: 80px;
+    background-color: #eaf2fe;
+
+    @include breakpoint(xs) {
+      background-color: $color-background-primary;
+      height: 53px;
+    }
+
+    .icono-menu {
+      cursor: pointer;
+
+      img {
+        width: 28px;
+        height: 21px;
+      }
+    }
+  }
+
+}
